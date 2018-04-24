@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+           body {
+               margin: 0;
+               background: url('img/hhh.jpg');
+           }
+        form{
+            width: 450px;
+            margin: auto;
+            margin-top: 70px;
+            padding: 20px;
+            background: lightsteelblue;
+            font-size: 20px;
+            font-family: "Century Gothic";
+            color: black;
+        }
+        input{
+            padding: 5px;
+            width: 200px;
+            border-radius: 5px;
+        }
+        input [type = submit] {
+            padding: 10px;
+            font-size: 20px;
+            width: 500px;
+        }
+        select{
+            padding: 5px;
+             border-radius: 5px;
+            font-size: 20px;
+            background: #ffffff;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="reservation">
+        <center><form>
+            <h2> Reservation Form </h2>
+            Hotel/Motel/Inn<br>
+             <select id="hname">
+                <option value=""></option>
+                <option value="Alya Vista Lodge">Alya Vista Lodge</option>
+                <option value="Celadon Pension House">Celadon Pension House</option>
+                <option value="Elena Tower Inn">Elena Tower Inn</option>
+                <option value="Famous Pension House 1">Famous Pension House 1</option>
+                <option value="Plaza Alemania Hotel">Plaza Alemania Hotel</option>
+                <option value="Infinity Suites">Infinity Suites</option>
+                <option value="Kingsway Inn">Kingsway Inn</option>
+                <option value="StayLite Suites">StayLite Suites</option>
+                <option value="D' Morvie Suites">D' Morvie Suites</option>
+            </select><br><br>
+            First Name <br>
+            <input type ="text" id="firstname" name="firstname" placeholder="First name"><br><br>
+            Last Name <br>
+            <input type ="text" id="lastname" name="lastname" placeholder="Last name"><br><br>
+            Contact Number <br>
+            <input type ="tel" id="contactnum" name="contactnum" placeholder="Contact Number"><br><br>
+             Check In <br>
+            <input type ="date" id="checkin" placeholder="DD MM YYYY" name="checkin"><br><br>
+             Check Out <br>
+            <input type ="date" id="checkout" placeholder="DD MM YYYY" name="checkout"><br><br>
+            Room Size <br>
+            <select type="text" id="roomsize" name ="size">
+                <option type="text" value="size"> Size</option>
+                <option type="text" value="single"> Single</option>
+                <option type="text" value="double"> Double</option>
+                <option type="text" value="queen"> Queen</option>
+            </select><br><br>
+            <!--<li> <a href="#"></a></li>-->
+            <!--<li> <a href="#"></a></li>-->
+            Duration <br>
+            <select type="text" id="duration" name ="duration">
+                <option type="text" value="duration"> Duration</option>
+                <option type="text" value="12 hours"> 12 hours</option>
+                <option type="text" value="24 hours"> 24 hours</option>
+            </select><br><br>
+            Room Number <br>
+            <select type="text" id="roomnum" name ="number">
+                <option type="text" value="duration"> Room Number</option>
+                <option type="text" value="102"> 102</option>
+                <option type="text" value="106"> 106</option>
+                <option type="text" value="109"> 109</option>
+                <option type="text" value="116"> 116</option>
+                <option type="text" value="110"> 110</option>
+                <option type="text" value="126"> 126</option>
+            </select><br><br>
+
+
+            <input type="button" id="sve-btn" onclick="reserves();" value="Save">
+
+            </form></center>
+        </div>
+
+    <script src="js/app.js"></script>
+    <script src="jquery.min.js"></script>
+
+</body>
+</html>
