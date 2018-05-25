@@ -8,7 +8,7 @@ declare
     loc_pwd character varying;
     loc_res character varying;
   begin
-     select into loc_usrnm username, loc_pwd, password from login
+     select into loc_usrnm username, loc_pwd, password from account
        where username = par_username and password = par_password;
 
      if loc_usrnm isnull AND loc_pwd isnull then
@@ -82,12 +82,13 @@ $$
  language 'plpgsql';
 
 
-create or replace function searchhotel(in par_hotelname text, in random text, out TEXT, out TEXT, out TEXT, out INT, out BOOLEAN) returns setof record as
+create or replace function searchhotel(in par_hotelname text, in random text, out TEXT, out TEXT, out bigint, out TEXT, out BOOLEAN) returns setof record as
   $$
 
-    select hotelname, address, contact_num, price, true from "hotels" where "hotelname" ilike par_hotelname;
+    select hotelname, address, contact_num, price, true from "hotelinfo" where "hotelname" ilike par_hotelname;
   $$
    language 'sql';
 
-select searchhotel('Alya Vista', '');
+select searchhotel('Alya Vista Lodge', '');
+select searchhotel('Elena Tower Inn', '');
 select searchhotel('Kingsway Inn', '');

@@ -85,21 +85,22 @@ def delete_reservation():
 
 
 @app.route('/search/', methods=['GET', 'POST', 'PUT'])
-def searchhot():
+def searchhotel():
 
     params = request.get_json()
-    hotelnames = params["hotelnames"]
+    hotelname1 = params["hotelname1"]
 
-    res = spcall('searchhotel', (hotelnames, 'random'), True)
+    res = spcall('searchhotel', (hotelname1, 'random'), True)
     if 'Error' in str(res[0][0]):
         return jsonify({'status': 'error', 'message': res[0][0]})
 
     recs = []
 
     for r in res:
-        recs.append({"hotelnames": r[0], "address": r[1], "contact_num": r[2], "price": r[3]})
+        recs.append({"hotelname1": r[0], "address": r[1], "contact_num": r[2], "price": r[3]})
 
     return jsonify({'status': 'ok', 'entries': recs, 'count': len(recs)})
+
 
 
 @app.after_request
