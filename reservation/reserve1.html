@@ -1,6 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <style type="text/css">
+    #table{
+        color: black;
+        background-color: #FCEC5F;
+        border-radius: 1%;
+        padding: 20px;
+    }
+    #table1{
+        color: black;
+        background-color: #FCEC5F;
+        border-radius: 1%;
+        padding: 20px;
+    }
+    .dataTables_wrapper{
+        font-family: 'Saira Extra Condensed', serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #343a40;
+        font-size: 20px;
+    }
+    th{
+        font-family: 'Saira Extra Condensed', serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #343a40;
+        font-size: 20px;
+        width: 100px;
+    }
+    .table .thead-dark th{
+        font-family: 'Saira Extra Condensed', serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: black;
+    }
+    .table1 .thead-dark th{
+        font-family: 'Saira Extra Condensed', serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: black;
+    }
+    .table1 .thead-dark th{
+        font-family: 'Saira Extra Condensed', serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: black;
+    }
+    .container{
+        height: auto;
+    }
+    .container1{
+        height: auto;
+    }
+
+
+    #target {
+        font-size: 13px;
+    }
+    a{
+        font-size: 13px;
+
+    }
+
+</style>
+
+
     <meta charset="UTF-8">
     <title>Congratulation</title>
 
@@ -25,8 +91,34 @@
             <center>
             <h2 style="margin-top: 200px"> Congratulations! Your room was reserved. Thank you! </h2>
                 <!--<h3>View reservation form? </h3><br>-->
-          <div id="reserve1">
-            <button type="submit" class="glyphicon glyphicon-log-in" style="margin-top: 100px;" onclick="view();">View Reservation</button>
+          <!--<div id="reserve1">-->
+            <!--<button type="submit" class="glyphicon glyphicon-log-in" style="margin-top: 100px;" onclick="view();">View Reservation</button>-->
+                <div class="container-fluid p-0"
+                >
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="visitor1">
+            <div style="width: 100%">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase" style="color: #fcec5f" style="font-size: 20px;">
+                        Reservation
+                    </h2>
+                </div>
+
+                <div id="table" style="background-color: white; border-radius: 10px;">
+                    <table id="maintable" class="table table-hover" style="font-size: 13px;">
+
+                    </table>
+                </div>
+                <br>
+
+
+
+            </div>
+        </section>
+    </div>
+
+    <!--</div>-->
+</section>
+
 
             <!--<table class="table" id="view">-->
                 <!--</table>-->
@@ -41,6 +133,67 @@
                 <script src="js/app.js"></script>
                 <script src="jQuery-2.1.4.min.js"></script>
                 <script src="bootstrap.min.js"></script>
+                <link href="css/w8.css" rel="stylesheet">
+                <script src="js/1.js"></script>
 
 </body>
+<script>
+
+    var myTable;
+
+    var dataset2 = [];
+    $(document).ready(function () {
+
+
+            $.ajax({
+                url: 'http://127.0.0.1:5000/view_profile',
+                type: "GET",
+                dataType: "json",
+                crossDomain: true,
+                success: function(resp) {
+                    if (resp.status  === 'ok') {
+                        for ( var i = 0; i < resp.entries.length; i++) {
+                            var dataset1 = [];
+                            if (resp.datenow === resp.entries[i].date) {
+                            dataset1.push(resp.entries[i].hname);
+                            dataset1.push(resp.entries[i].firstname);
+                            dataset1.push(resp.entries[i].lastname);
+                            dataset1.push(resp.entries[i].contactnum);
+                            dataset1.push(resp.entries[i].roomsize);
+                            dataset1.push(resp.entries[i].checkin);
+                            dataset1.push(resp.entries[i].checkout);
+                            dataset1.push(resp.entries[i].duration);
+                            dataset1.push(resp.entries[i].roomnum);
+                            dataset2.push(dataset1);
+                            }
+
+                        }
+
+                        myTable =  $('#maintable').DataTable({
+                            data: dataset2,
+                            columns : [
+                                {title: "Hotel Name"},
+                                {title: "First Name"},
+                                {title: "Last Name"},
+                                {title: "Contact No."},
+                                {title: "Room Size"},
+                                {title: "Check-in"},
+                                {title: "Check-out"},
+                                {title: "Duration"},
+                                {title: "Room No."}
+                                ]
+                        });
+
+                    }
+                }
+            });
+
+
+
+    });
+
+
+
+
+</script>
 </html>

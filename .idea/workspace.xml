@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2cbe02f-f57d-4e33-91f2-66f0478ddf99" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/front.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/front.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/reservation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/reservation.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/reserve1.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/reserve1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/search.html" afterDir="false" />
     </list>
@@ -19,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hotel_Reservation$main.coverage" NAME="main Coverage Results" MODIFIED="1527017841632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reservation" />
+    <SUITE FILE_PATH="coverage/Hotel_Reservation$main.coverage" NAME="main Coverage Results" MODIFIED="1527264712776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reservation" />
     <SUITE FILE_PATH="coverage/Hotel_Reservation$model.coverage" NAME="model Coverage Results" MODIFIED="1526817471760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reservation" />
   </component>
   <component name="DatabaseView">
@@ -38,6 +36,41 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="HotelReservation@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="HotelReservation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="HotelReservation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="HotelReservation: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="HotelReservation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="HotelReservation: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="HotelReservation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="HotelReservation: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="HotelReservation@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="HotelReservation: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="reservation: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
@@ -51,8 +84,8 @@
       <file leaf-file-name="front.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservation/front.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3536">
-              <caret line="208" column="73" selection-start-line="208" selection-start-column="73" selection-end-line="208" selection-end-column="73" />
+            <state relative-caret-position="17">
+              <caret line="230" column="2" selection-start-line="230" selection-start-column="2" selection-end-line="230" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -60,27 +93,20 @@
       <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservation/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+            <state relative-caret-position="17">
+              <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reserve1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reservation/reserve1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservation/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="74">
+              <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -90,8 +116,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservation/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+            <state relative-caret-position="578">
+              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -99,8 +125,23 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservation/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="692">
+              <caret line="104" column="83" lean-forward="true" selection-start-line="104" selection-start-column="83" selection-end-line="104" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#4;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#5;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#6;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#7;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#8;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +149,24 @@
       <file leaf-file-name="reservation.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reservation/reservation.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+            <state relative-caret-position="646">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reserve1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reservation/reserve1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="94" column="143" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="94" selection-end-column="143" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#h2#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,6 +176,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>contact</find>
+      <find>modal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,11 +186,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/reservation/model.py" />
+        <option value="$PROJECT_DIR$/reservation/main.py" />
+        <option value="$PROJECT_DIR$/reservation/reservation.sql" />
         <option value="$PROJECT_DIR$/reservation/index.html" />
         <option value="$PROJECT_DIR$/reservation/front.html" />
-        <option value="$PROJECT_DIR$/reservation/main.py" />
         <option value="$PROJECT_DIR$/reservation/search.html" />
-        <option value="$PROJECT_DIR$/reservation/reservation.sql" />
         <option value="$PROJECT_DIR$/reservation/js/app.js" />
         <option value="$PROJECT_DIR$/reservation/reserve1.html" />
       </list>
@@ -269,9 +327,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.16692914" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8345534" weight="0.2488189" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8345534" visible="true" weight="0.2488189" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7467057" weight="0.32913387" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13909224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13909224" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1954612" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -284,7 +342,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="12" sideWeight="0.64128846" visible="true" weight="0.28188977" />
+      <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.64128846" weight="0.28188977" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -563,16 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c08ac157-d8ce-4089-8bf6-3207f447372a/database/HotelReservation/schema/public/table/reservation">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26246">
@@ -587,20 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reservation/front.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3536">
-          <caret line="208" column="73" selection-start-line="208" selection-start-column="73" selection-end-line="208" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reservation/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://c08ac157-d8ce-4089-8bf6-3207f447372a/database/HotelReservation/schema/public/table/hotelinfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -611,40 +645,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reservation/reservation.sql">
+    <entry file="das://c08ac157-d8ce-4089-8bf6-3207f447372a/database/HotelReservation/schema/public/table/reservation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+        <state relative-caret-position="578">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation/front.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="230" column="2" selection-start-line="230" selection-start-column="2" selection-end-line="230" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reservation/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reservation/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reservation/reserve1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reservation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="74">
+          <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="104" column="83" lean-forward="true" selection-start-line="104" selection-start-column="83" selection-end-line="104" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#6;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#7;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#8;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation/reservation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation/reserve1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="94" column="143" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="94" selection-end-column="143" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#h2#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

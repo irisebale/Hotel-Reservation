@@ -100,26 +100,50 @@ function view(){
 
  function reserve1(hname,firstname,lastname,contactnum,roomsize,checkin,checkout,duration,roomnum)
 {
-   return '<div class="container-fluid" >' +
-       '<h6>Hotel Name:</h6>'+
-	   '<b><p>' +hname+  '</p></b>'+
-       '<h6>First Name:</h6>'+
-	   '<b><p>' +firstname+  '</p></b>'+
-       '<h6>Last Name:</h6>'+
-		'<b><p>' +lastname+ '</p></b>'+
-       '<h6>Contact Number:</h6>'+
-	   '<b><p>' +contactnum+ '</p></b>'+
-       '<h6>Room Size:</h6>'+
-		'<b><p>' +roomsize+ '</p></b>'+
-       '<h6>Check in:</h6>'+
-		'<b><p>' +checkin+ '</p></b>'+
-       '<h6>Check out:</h6>'+
-		'<b><p>' +checkout+ '</p></b>'+
-       '<h6>Duration:</h6>'+
-		'<b><p>' +duration+ '</p></b>'+
-        '<h6>Room Number:</h6>'+
-		'<b><p>' +roomnum+ '</p></b>'+
-       '</div>'
+     return '<tr>'+
+
+                        '<th class="w3-center" style="margin-top: 500px">Hotel Name</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Firstname</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Lastname</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Contact No.</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Room Size</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Check In</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Check Out.</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Duration</th>'+
+                        '<th class="w3-center" style="margin-top: 500px">Room No.</th>'+
+
+                     '</tr>' +'<tr>'+
+              '<td>' +hname+ '</td>' +
+              '<td>' +firstname+ '</td>' +
+              '<td>' +lastname+ '</td>' +
+              '<td>' +contactnum+ '</td>' +
+              '<td>' +roomsize+ '</td>' +
+              '<td>' +checkin+ '</td>' +
+              '<td>' +checkout+ '</td>' +
+              '<td>' +duration+ '</td>' +
+              '<td>' +roomnum+ '</td>' +
+              '</tr>';
+
+   // return '<div class="container-fluid" >' +
+   //     '<h6>Hotel Name:</h6>'+
+	//    '<b><p>' +hname+  '</p></b>'+
+   //     '<h6>First Name:</h6>'+
+	//    '<b><p>' +firstname+  '</p></b>'+
+   //     '<h6>Last Name:</h6>'+
+	// 	'<b><p>' +lastname+ '</p></b>'+
+   //     '<h6>Contact Number:</h6>'+
+	//    '<b><p>' +contactnum+ '</p></b>'+
+   //     '<h6>Room Size:</h6>'+
+	// 	'<b><p>' +roomsize+ '</p></b>'+
+   //     '<h6>Check in:</h6>'+
+	// 	'<b><p>' +checkin+ '</p></b>'+
+   //     '<h6>Check out:</h6>'+
+	// 	'<b><p>' +checkout+ '</p></b>'+
+   //     '<h6>Duration:</h6>'+
+	// 	'<b><p>' +duration+ '</p></b>'+
+   //      '<h6>Room Number:</h6>'+
+	// 	'<b><p>' +roomnum+ '</p></b>'+
+   //     '</div>'
 }
 
 
